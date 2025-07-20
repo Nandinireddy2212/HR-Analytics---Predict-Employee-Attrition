@@ -1,0 +1,48 @@
+✅ 1. Logistic Regression
+Model Type: Binary Classification
+Algorithm: Logistic Regression
+Training-Test Split: 70% Train / 30% Test
+Data Scaling: StandardScaler
+
+📌 Evaluation Metrics:
+Accuracy: ~0.84
+
+Precision: ~0.71
+
+Recall: ~0.53
+
+F1 Score: ~0.61
+
+ROC AUC Score: 0.76
+
+📌 Interpretation:
+The model performs well in distinguishing attrition cases with a decent balance between false positives and false negatives.
+
+ROC AUC score of 0.76 indicates the model can differentiate between employees who will stay and those who may leave with good reliability.
+
+
+
+✅ 2. Decision Tree Classifier
+Model Type: Binary Classification
+Algorithm: Decision Tree (max_depth=5, Gini criterion)
+Training-Test Split: 70% Train / 30% Test
+Data Scaling: Not required
+
+📌 Evaluation Metrics:
+Accuracy: ~0.86
+
+Precision: ~0.75
+
+Recall: ~0.56
+
+F1 Score: ~0.64
+
+ROC AUC Score: 0.79
+
+📌 Interpretation:
+The Decision Tree slightly outperforms Logistic Regression in accuracy and AUC.
+
+It also offers better interpretability with rule-based classification and enables SHAP analysis for feature explanation.
+
+This model is well-suited for HR teams to understand and act on attrition patterns.
+
