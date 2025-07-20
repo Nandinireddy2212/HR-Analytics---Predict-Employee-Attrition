@@ -3,7 +3,7 @@
 A comprehensive HR Analytics project to explore, model, and visualize employee attrition patterns using Python, SHAP, and Power BI.
 
 ## Repository Structure
-<img width="709" height="594" alt="image" src="https://github.com/user-attachments/assets/65d695ec-5e73-4e66-ae60-55e3185209e4" />
+<img width="706" height="615" alt="image" src="https://github.com/user-attachments/assets/fa416145-ea11-4390-955a-9ddf03028706" />
 
 
 ## Tools & Technologies
