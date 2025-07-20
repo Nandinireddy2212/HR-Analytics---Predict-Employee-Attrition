@@ -5,20 +5,20 @@ Training-Test Split: 70% Train / 30% Test
 Data Scaling: StandardScaler
 
 📌 Evaluation Metrics:
-Accuracy: ~0.84
+Accuracy: ~0.87
 
-Precision: ~0.71
+Precision: ~0.91
 
-Recall: ~0.53
+Recall: ~0.95
 
-F1 Score: ~0.61
+F1 Score: ~0.93
 
-ROC AUC Score: 0.76
+ROC AUC Score: 0.80
 
 📌 Interpretation:
 The model performs well in distinguishing attrition cases with a decent balance between false positives and false negatives.
 
-ROC AUC score of 0.76 indicates the model can differentiate between employees who will stay and those who may leave with good reliability.
+ROC AUC score of 0.80 indicates the model can differentiate between employees who will stay and those who may leave with good reliability.
 
 
 
@@ -29,18 +29,18 @@ Training-Test Split: 70% Train / 30% Test
 Data Scaling: Not required
 
 📌 Evaluation Metrics:
-Accuracy: ~0.86
+Accuracy: ~0.84
 
-Precision: ~0.75
+Precision: ~0.88
 
-Recall: ~0.56
+Recall: ~0.95
 
-F1 Score: ~0.64
+F1 Score: ~0.91
 
-ROC AUC Score: 0.79
+ROC AUC Score: 0.66
 
 📌 Interpretation:
-The Decision Tree slightly outperforms Logistic Regression in accuracy and AUC.
+The Logistic Regression slightly outperforms Decision Tree in accuracy and AUC.
 
 It also offers better interpretability with rule-based classification and enables SHAP analysis for feature explanation.
 
